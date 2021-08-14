@@ -13,5 +13,13 @@ int main(void)
     media = prova1 + prova2 + trabalho;
     media = media / 3;
     printf("\nSua nota é: %.2f", media);
+    if (media >= 6)
+    {
+        printf("\n\nParabéns! Você passou!");
+    }
+    else
+    {
+        printf("\n\nVocê reprovou!");
+    }
     return (0);
 }
